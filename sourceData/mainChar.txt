@@ -1,0 +1,43 @@
+#words
+~toBeeOrNotToBee
+a swarm of bees in the shape of 
+#words
+~humanoid
+woman
+demon
+robot
+man
+elf
+extraterrestrial
+#words
+~animal
+fox
+#characterSettings
+a swarm of bees in the shape of 
+	p=they	h=rural apiary
+woman
+	p=she	h=small town,village,farm
+demon
+	p=she,he,it	h=fiery depths of Hell
+robot
+	p=it	h=quality assurance department
+man
+	p=he	h=small town,village,farm
+fox
+	p=she,he	h=forest
+elf
+	p=she,he	h=enchanted forest
+extraterrestrial
+	p=she,he,it	h=space station
+#titleTemplates
+Romance at the Rural Apiary//rural apiary
+Smitten in a Small Town//small town
+Valentine in the Village//village
+Friendship at the Farm//farm
+Enchantment in the Forest//forest
+Queen of the Quality Assurance Department//quality assurance department
+Finally Destined for Happiness in the Fiery Depths of Hell//fiery depths of Hell
+Sweetness and Honey Bees//a swarm of bees in the shape of 
+Magic in the Enchanted Forest//enchanted forest
+Love That's Out Of This World//space station
+Devillishly Good//demon

@@ -1,0 +1,20 @@
+#pronounSets
+she,her
+he,him
+it,it
+they,them
+#pronounGroupMembers
+~they
+	p=they
+~she/he/it
+	p=she,he,it
+#infinitives
+to work
+to meet
+#verbs
+~to work
+	she/he/it=works
+	they=work
+~to meet
+	she/he/it=meets
+	they=meet

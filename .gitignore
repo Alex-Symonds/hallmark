@@ -1,0 +1,4 @@
+# Byte-compiled / optimized / DLL files
+hallmark.db
+.env
+node_modules

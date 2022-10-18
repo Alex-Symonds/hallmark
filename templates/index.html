@@ -1,0 +1,72 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+    <h1><span class="main-heading">HALLMARK <strong>MOVIE PLOT</strong> GENERATOR</span></h1>
+    <div id="subtitle" class="text-muted">The <strong>awesome</strong> tool the writers of Hallmark movies <strong>never requested</strong> and <strong>don't want</strong>.</div>
+
+    <div id="hallmarkMovie">
+      <div id="hallmarkCarousel" class="carousel slide" data-ride="carousel" data-interval="20000">
+        <ol class="carousel-indicators">
+          <li data-target="#hallmarkCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#hallmarkCarousel" data-slide-to="1"></li>
+          <li data-target="#hallmarkCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+              <div class="layered-image-container">
+                <img class="background-layer" src="..\static\deskAndPad.jpg">
+                <img class="foreground-layer" src="..\static\{{ movies[0]['image'] }}">
+              </div>
+            </div>
+            <div class="my-caption">
+              <h5>{{ movies[0]['title'] }}</h5>
+              <p>{{ movies[0]['plot'] }}</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="layered-image-container">
+                <img class="background-layer" src="..\static\deskAndPad.jpg">
+                <img class="foreground-layer" src="..\static\{{ movies[1]['image'] }}">
+              </div>
+              <div class="my-caption">
+                <h5>{{ movies[1]['title'] }}</h5>
+                <p>{{ movies[1]["plot"] }}</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="layered-image-container">
+                <img class="background-layer" src="..\static\deskAndPad.jpg">
+                <img class="foreground-layer" src="..\static\{{ movies[2]['image'] }}">
+              </div>
+              <div class="my-caption">
+                <h5>{{ movies[2]['title'] }}</h5>
+                <p>{{ movies[2]["plot"] }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#hallmarkCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#hallmarkCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div id="button-box-container">
+      <div id="button-box">
+        <button type="button" class="btn btn-primary my-btn" id="more_hallmark" onClick="window.location.reload();">More Hallmarks please! :D</button>
+        <button type="button" class="btn btn-secondary my-btn" id="original_hallmark" onClick="location.href='/original'">Undo! Ctrl+Z! You ruined Hallmark. :(</button>
+        <p class="text-muted">(Or refresh the page for more Hallmarkiness)</p>
+      </div>
+    </div>
+    
+    
+{% endblock %}

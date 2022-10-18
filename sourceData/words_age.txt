@@ -1,0 +1,6 @@
+#words
+~age
+young
+old
+middle-aged
+aging

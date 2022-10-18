@@ -1,0 +1,190 @@
+:root {
+    --hm-headbar-colour: #652b82;
+    --hm-headbar-colour-darker: #4f157c;
+    --hm-title-colour: #dc186d;
+    --hm-title-colour-darker: #c80459;
+}
+
+#header-bar{
+    height: 5rem;
+    background: var(--hm-headbar-colour);
+    margin-bottom:1em;
+}
+
+#hallmark-logo{
+    padding: 0.5rem;
+    height: 4.5rem;
+}
+
+#subtitle{
+    color: #999999;
+    font-family: Edwardian Script, Segoe Script, Lucida Handwriting;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.btn-primary{
+    background: var(--hm-title-colour);
+    border-color: var(--hm-title-colour-darker);
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus{
+    background: var(--hm-title-colour-darker);
+    border-color: var(--hm-title-colour-darker);
+}
+
+.btn-secondary{
+    background: var(--hm-headbar-colour);
+    border-color: var(--hm-headbar-colour-darker);
+}
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:focus{
+    background: var(--hm-headbar-colour-darker);
+    border-color: var(--hm-headbar-colour-darker);   
+}
+
+h1{
+    font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Oxygen,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    color: var(--hm-title-colour);
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.5rem;
+    max-width: 100%;
+    position: relative;
+}
+
+h1:before{
+    content: "";
+    display: block;
+    width: 50%;
+    height: 0.125rem;
+    position: absolute;
+    background: var(--hm-title-colour);
+    left: 0;
+    top: 50%;
+    z-index: -1;
+}
+h1:after{
+    content:"";
+    display:block;
+    width: 50%;
+    height: 0.125rem;
+    position:absolute;
+    background: var(--hm-title-colour);
+    right: 0;
+    top: 50%;
+    z-index: -1;
+}
+
+.main-heading{
+    padding: 0 1.5rem;
+    background: white;
+}
+
+.layered-image-container {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.background-layer {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.foreground-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#hallmarkMovie{
+    margin-bottom: 0.5rem;
+}
+
+#button-box-container{
+    text-align: center;
+}
+
+#button-box{
+    display:inline-block;
+    position:relative;
+}
+
+#hallmarkCarousel.carousel.slide {
+    width: 100%;
+    max-width: 1044px;
+}
+
+.my-btn{
+    margin-bottom: 0.5rem;
+}
+
+.my-caption{
+    padding: 1.25rem;
+    background: #888;
+}
+
+
+.not-carousel{
+    position: relative;
+}
+.not-carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.not-carousel-inner:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.not-carousel-item {
+    position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+}
+.my-caption{
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 576px){
+    .layered-image-container{
+        overflow: hidden;
+        height: 550px;
+    }
+    .background-layer, .foreground-layer{
+        top: 0;
+        left: -20%;
+        right: 20%;
+        width: 140%;
+        height: auto;
+    }
+    .my-caption{
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .layered-image-container{
+        overflow: hidden;
+        height: 525px;
+    }
+    .my-caption{
+        top: 5%;
+        left: 5%;
+        right: 5%;
+    }
+}

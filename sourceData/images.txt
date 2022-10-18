@@ -1,0 +1,65 @@
+#images
+apocalypse,apocalypse,png
+bees,bees,png
+binary,binary,png
+darker,darker-and-grittier,png
+demon,demon,png
+fantasy,fantasy,png
+fox,fox,png
+infotainment,infotainment,png
+money,money,png
+nonhuman,nonhuman,png
+offside,offside,png
+original,original,png
+rock,rock,png
+default0,default0,png
+default1,default1,png
+default2,default2,png
+#wordsToImages
+cat,nonhuman
+dog,nonhuman
+rabbit,nonhuman
+horse,nonhuman
+hamster,nonhuman
+racoon,nonhuman
+dolphin,nonhuman
+chipmunk,nonhuman
+snake,nonhuman
+fox,fox
+duck-billed platypus,nonhuman
+rat,nonhuman
+elf,fantasy
+orc,fantasy
+imp,fantasy
+robot,binary
+rock star,rock
+fairy,fantasy
+fairy godparent,fantasy
+demon,demon
+angel,fantasy
+toaster,nonhuman
+oak tree,nonhuman
+credit card,nonhuman
+igneous rock,nonhuman
+ethically questionable,darker
+morally questionable,darker
+a swarm of bees in the shape of ,bees
+antidisestablishmentarianism,infotainment
+quantum chromodynamics,infotainment
+questionable ethics,darker
+moral ambiguity,darker
+capitalism,infotainment
+socialism,infotainment
+pain,darker
+irony,darker
+avarice,darker
+health and safety regulations pertaining to electricity,infotainment
+runtime polymorphism,infotainment
+the offside rule,offside
+killing all humans,apocalypse
+embezzlement,money
+multi-layer marketing opportunities,money
+memes,infotainment
+apathy,darker
+trigonometry,infotainment
+cultural appropriation,infotainment

@@ -1,0 +1,14 @@
+#words
+~animal
+cat
+dog
+rabbit
+horse
+hamster
+racoon
+dolphin
+chipmunk
+snake
+fox
+duck-billed platypus
+rat

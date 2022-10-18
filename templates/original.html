@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+    <h1><span class="main-heading">HALLMARK <strong>MOVIE PLOT</strong> GENERATOR</span></h1>
+    <div id="subtitle" class="text-muted">The <strong>awesome</strong> tool the writers of Hallmark movies <strong>never requested</strong> and <strong>don't want</strong>.</div>
+
+    <div id="hallmarkMovie">
+      <div class="not-carousel">
+        <div class="not-carousel-inner">
+          <div class="d-flex justify-content-center">
+            <div class="layered-image-container">
+              <img class="background-layer" src="..\static\deskAndPad.jpg">
+              <img class="foreground-layer" src="..\static\{{ myMovie['image'] }}">
+            </div>
+            <div class="my-caption">
+              <h5>{{ myMovie['title'] }}</h5>
+              <p>{{ myMovie['plot'] }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <div id="button-box-container">
+      <div id="button-box">
+        <button type="button" class="btn btn-primary my-btn" id="more_hallmark" onClick="location.href='/'">Freshen this up a bit</button>
+      </div>
+    </div>
+    
+{% endblock %}

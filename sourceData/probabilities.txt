@@ -1,0 +1,34 @@
+#words
+~toBeeOrNotToBee
+a swarm of bees in the shape of 
+ 
+~jobDesc
+well-paid and professional
+quirky and creative
+heart-warming and fulfilling
+ethically questionable
+morally questionable
+~specialLifeguide
+lawyer from an even bigger city
+enraged demonic tornado of hatred and rage
+Dickensian street urchin
+homeless person who radiates wisdom
+#probabilities
+~toBeeOrNotToBee
+	0.92	n=not to bee	w= 
+	0.08	w=a swarm of bees in the shape of 	n=to bee
+~mainChar
+	0.85	w=woman
+	0.05	w=demon
+	0.10	n=has pronoun, has hometown, is humanoid|animal|inanimate
+~jobDesc
+	0.30	w=well-paid and professional
+	0.30	w=quirky and creative
+	0.30	w=heart-warming and fulfilling
+	0.05	w=morally questionable
+	0.05	w=ethically questionable
+~lifeguide
+	0.80	c=humanoid	p=#[adjective]# #[age]#
+	0.08	c=animal	p=#[adjective]# talking
+	0.08	c=inanimate	p=#[adjective]# sentient
+	0.04	c=specialLifeguide

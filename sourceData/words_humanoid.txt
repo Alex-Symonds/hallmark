@@ -1,0 +1,19 @@
+#words
+~humanoid
+man
+woman
+lady
+gentleman
+elf
+orc
+imp
+robot
+rock star
+extraterrestrial
+fairy
+second-hand car salesperson
+politician
+Santa Claus look-alike
+fairy godparent
+demon
+angel

@@ -1,0 +1,8 @@
+#words
+~humanoid
+non-binary adult
+#characterSettings
+non-binary adult
+	p=they	h=small town,village,farm,hippie commune
+#titleTemplates
+Happiness at the Hippie Commune//hippie commune
